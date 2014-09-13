@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'ostrich_sansmedium';
+    src: url('ostrich-regular-webfont.eot');
+    src: url('ostrich-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('ostrich-regular-webfont.woff2') format('woff2'),
+    url('ostrich-regular-webfont.woff') format('woff'),
+    url('ostrich-regular-webfont.ttf') format('truetype'),
+    url('ostrich-regular-webfont.svg#ostrich_sansmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    height: 100%;
+    background-color: yellowgreen;
+}
+
+body {
+    font-family: 'ostrich_sansmedium';
+    font-size: 300px;
+    margin: 0.5em auto;
+    max-width: 767px;
+}
+p {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+p::selection {
+    background: #ffec0e;
+}
+
+@media screen and (max-width: 787px) {
+    body {
+        font-size: 250px;
+        max-width: 650px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    body {
+        font-size: 200px;
+        max-width: 600px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    body {
+        font-size: 180px;
+        max-width: 450px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        font-size: 120px;
+        max-width: 350px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        font-size: 120px;
+        max-width: 300px;
+    }
+}
