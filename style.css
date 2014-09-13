@@ -16,7 +16,7 @@ html {
 }
 
 body {
-    font-family: 'ostrich_sansmedium';
+    font-family: 'ostrich_sansmedium', Arial, sans-serif;
     font-size: 300px;
     margin: 0.5em auto;
     max-width: 767px;
@@ -27,7 +27,8 @@ p {
     color: white;
 }
 
-p::selection {
+p::selection,
+p::-moz-selection{
     background: #ffec0e;
 }
 
