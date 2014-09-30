@@ -13,14 +13,16 @@
 html {
     height: 100%;
     background-color: yellowgreen;
+    -webkit-text-size-adjust: 100%;
 }
 
 body {
     font-family: 'ostrich_sansmedium', Arial, sans-serif;
-    font-size: 300px;
+    font-size: 90px;
     margin: 0.5em auto;
-    max-width: 767px;
+    max-width: 240px;
 }
+
 p {
     margin: 0;
     padding: 0;
@@ -32,37 +34,30 @@ p::-moz-selection{
     background: #ffec0e;
 }
 
-@media screen and (max-width: 787px) {
+@media all and (min-width: 320px) {
     body {
-        font-size: 250px;
-        max-width: 650px;
+        font-size: 110px;
+        max-width: 280px;
     }
 }
 
-@media screen and (max-width: 700px) {
+@media all and (min-width: 375px) {
+    body {
+        font-size: 150px;
+        max-width: 380px;
+    }
+}
+
+@media all and (min-width: 414px) {
     body {
         font-size: 200px;
-        max-width: 600px;
+        max-width: 505px;
     }
 }
 
-@media screen and (max-width: 620px) {
+@media all and (min-width: 676px) {
     body {
-        font-size: 180px;
-        max-width: 450px;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    body {
-        font-size: 120px;
-        max-width: 350px;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    body {
-        font-size: 120px;
-        max-width: 300px;
+        font-size: 250px;
+        max-width: 630px;
     }
 }
